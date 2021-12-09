@@ -1,5 +1,13 @@
 This is my first commit!
 
 cmd :
-git in
-sit status
+initialize git repository in your folder: git init
+git status
+add files: git add test.txt
+typical commit: git commit -m "added some text file with command lines"
+fix user info: git config --global --edit
+git status
+look at the history of your log :  git log
+
+And here goes another commit!
+track all files and their changes: git add .

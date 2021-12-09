@@ -1,0 +1,5 @@
+This is my first commit!
+
+cmd :
+git in
+sit status

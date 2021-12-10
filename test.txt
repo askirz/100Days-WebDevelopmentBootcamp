@@ -1,4 +1,4 @@
-This is my first commit!
+This is another commit!
 
 cmd :
 initialize git repository in your folder: git init
@@ -11,3 +11,12 @@ look at the history of your log :  git log
 
 And here goes another commit!
 track all files and their changes: git add .
+
+check branch's name: git branch
+change branch's name: git branch -m yourNewNameHere
+create new branch: git checkout -b featuredName
+change to another branch: git checkout anotherBranchName
+merge branches: git merge anotherBranchsName
+
+merging conflicts (first create conficting commits):
+

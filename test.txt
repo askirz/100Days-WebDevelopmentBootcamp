@@ -16,7 +16,8 @@ check branch's name: git branch
 change branch's name: git branch -m yourNewNameHere
 create new branch: git checkout -b featuredName
 change to another branch: git checkout anotherBranchName
-merge branches: git merge anotherBranchsName
+merge branches: git merge anotherBranchName
 
-merging conflicts (first create conficting commits):
-
+merging conflicts (first create conficting commits): git merge anotherBranchName
+accept or reject the changes, save and use the commands: git add .
+: git commit -m "description of the decisions"

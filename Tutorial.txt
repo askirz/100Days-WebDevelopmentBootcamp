@@ -27,4 +27,4 @@ reverting staged commits (one by one reccommended) : git reset --hard HEAD~1
 
 deleting branch: git branch -D BranchToDelete
 
-reestablish the latest well commited state: git checkout -- .
+reestablish the latest well commited state, to delete unstaged changes : git checkout -- .

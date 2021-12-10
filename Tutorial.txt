@@ -26,3 +26,5 @@ accept or reject the changes, save and use the commands: git add .
 reverting staged commits (one by one reccommended) : git reset --hard HEAD~1
 
 deleting branch: git branch -D BranchToDelete
+
+reestablish the latest well commited state: git checkout -- .
